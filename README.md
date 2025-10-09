@@ -4,6 +4,8 @@
 This project analyzes AWS CloudWatch web traffic logs to detect suspicious web sessions. The dataset contains **282 network traffic records from 7 countries**, including features like `bytes_in`, `bytes_out`, and `duration_seconds`.  
 The goal is to identify anomalies (potential web threats) using Python-based data analysis and machine learning.
 
+![Anomaly Detection Scatter Plot](outputs/anomaly_scatter_plot.png)
+
 ---
 
 ## 🎯 Objective
