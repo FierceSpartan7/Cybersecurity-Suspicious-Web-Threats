@@ -1,0 +1,9 @@
+This folder contains all output files generated from the analysis of the AWS CloudWatch_Traffic_Web_Attack.csv dataset.
+
+Outputs include:
+- suspicious_results.csv → Contains network sessions labeled as "Suspicious" or "Normal" after anomaly detection.
+- traffic_stats_summary.csv → Summarized statistics (mean, max, min) for bytes_in, bytes_out, and duration_seconds.
+- anomaly_scatter_plot.png → Visualization showing the distribution of normal vs. suspicious web traffic sessions.
+
+These outputs were generated using Python (pandas, scikit-learn, matplotlib) from the Cybersecurity_WebThreat_Interaction.ipynb notebook.
+They help visualize attacker IP patterns and support data-driven insights into cybersecurity threats.
